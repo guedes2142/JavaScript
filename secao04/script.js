@@ -1,36 +1,48 @@
 
-var nome = 'Rafael Guedes'
+var num = 42;
+var num2 = 92;
 
-var alunos = ['Rafael','Camila','Pedro','Algusto' ];
-console.log(alunos)
-
-var alunoRafael = {
-
-    nome: 'Rafael Guedes De Almeida',
-    idade: 34,
-    altura: 1.75,
-    ativo: true,
-    id: 01
-};
-
-if ('nome' in alunoRafael){
-    console.log('Aluno cadastrado');
-}else{
-    console.log('Aluno não cadastrado');
-}
-
-let idade = 19;
-
-if(idade >= 18){
-    console.log('Maior de idade');
-}else if(idade >+ 10 && idade <= 18){
-    console.log('Menor de idade adolecente');
-}else{
-    console.log('Bebê ainda')
-}
+var res = num + num2;
+console.log('O resultado é: '+ res)
 
 
+var num1 = 41, num2= 97, nome = 'Rafael';
+console.log(num, num2, nome);
+
+//cuidado
+
+var num3 = '39';
+
+res = num1 + num3;
+console.log(res);// este valor foi concatenado
+
+// *, - , +, /,
+
+res = num1 / 2;
+console.log(res);
+// Modúlo resto da divisão
+
+res = num2 % 2;
+console.log(res);
 
 
+// incremento/decremento
+
+//num1 = num1 + 8;
+//console.log(num1);
+
+num1 += 8; // é a mesma coisa que a formula de cima
+console.log(num1); // -= *= /=
+
+console.log(num1++); // imprime a varíavel deṕois incrementa 49, 50
+console.log(num1--); 
+console.log(++num1);
+console.log(--num1);
+
+var outro = 10;
+
+console.log(outro);
+console.log(outro++)
+console.log(++outro)
 
 
